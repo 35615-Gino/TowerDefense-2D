@@ -11,16 +11,19 @@ public class Tower : MonoBehaviour
 
 
 
+
     // Start is called before the first frame update
     void Start()
     {
         StartCoroutine(Shoot());
+        
 
     }
 
     // Update is called once per frame
     void Update()
     {
+
         GameObject[] targets = GameObject.FindGameObjectsWithTag("Enemy");
         if (targets.Length == 0) 
         { 
@@ -37,6 +40,7 @@ public class Tower : MonoBehaviour
     {
         Vector2 direction = target.position - transform.position;
         transform.rotation = Quaternion.FromToRotation(Vector3.up, direction);
+
     }
 
     IEnumerator Shoot()
@@ -45,7 +49,8 @@ public class Tower : MonoBehaviour
         {
             yield return new WaitForSeconds(shootInterval);
             GameObject projectileGameObject = Instantiate(projectilePrefab);
-            
+            Projectile projectile = projectileGameObject.GetComponent<Projectile>();
+            projectile.target = target;
         }
     }
 }
