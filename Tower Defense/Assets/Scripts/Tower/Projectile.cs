@@ -16,6 +16,18 @@ public class Projectile : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (target == null)
+        {
+            Destroy(gameObject);
+            return;
+        }
         transform.position = Vector3.MoveTowards(transform.position, target.transform.position, Time.deltaTime * speed);
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+
+        if (other.tag == "Enemy") 
+        { Destroy(gameObject); Destroy(other.gameObject); }
     }
 }
