@@ -1907,16 +1907,11 @@ MonoBehaviour:
   waves:
   - name: Wave 1
     enemies:
-    - enemyTransform: {fileID: 2832987990889525010, guid: 7fcd996aa0ec874408654dd4db056702, type: 3}
+    - enemyPrefab: {fileID: 0}
       count: 10
-      rate: 25
+      spawnIntervalInSeconds: 0.5
   - name: Wave 1
-    enemies:
-    - enemyTransform: {fileID: 2832987990889525010, guid: 7fcd996aa0ec874408654dd4db056702, type: 3}
-      count: 25
-      rate: 10
-  timeBetweenWaves: 6
-  waveCountdown: 5
+    enemies: []
 --- !u!4 &1919322885
 Transform:
   m_ObjectHideFlags: 0
