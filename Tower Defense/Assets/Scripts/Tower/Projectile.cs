@@ -6,6 +6,8 @@ public class Projectile : MonoBehaviour
 {
     [SerializeField] public Transform target;
     [SerializeField] private float speed = 10;
+    [SerializeField ]private float damage;
+    private EnemyHealth health;
 
     // Start is called before the first frame update
     void Start()
@@ -28,6 +30,9 @@ public class Projectile : MonoBehaviour
     {
 
         if (other.tag == "Enemy") 
-        { Destroy(gameObject); Destroy(other.gameObject); }
+        {
+            Destroy(gameObject);
+            Destroy(other.gameObject);
+        }
     }
 }
