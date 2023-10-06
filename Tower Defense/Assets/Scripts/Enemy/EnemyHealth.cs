@@ -7,8 +7,15 @@ public class EnemyHealth : MonoBehaviour
     // Start is called before the first frame update
     [SerializeField] public int health;
 
-    private void Start()
+
+
+    public void TakeDamage(int damageAmount)
     {
-        health = 2;
+        health -= damageAmount;
+        // other stuff you want to happen when enemy takes damage
+        if(health < 0)
+        {
+            Destroy(gameObject);
+        }
     }
 }

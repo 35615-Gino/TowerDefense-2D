@@ -8,13 +8,6 @@ public class TargetDetection : MonoBehaviour
 {
     [SerializeField] private Transform target;
 
-    
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
 
     private void Update()
     {
@@ -36,9 +29,7 @@ public class TargetDetection : MonoBehaviour
                 nearestDistance = distance;
             }
         }
-
         Detect(target);
-        
     }
     // Update is called once per frame
     void Detect(Transform target)

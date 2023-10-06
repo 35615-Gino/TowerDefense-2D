@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2832987990889525010}
   - component: {fileID: 2832987990889524461}
   - component: {fileID: 2832987990889524460}
+  - component: {fileID: -8103793176537959591}
   - component: {fileID: -8668661790145963030}
   m_Layer: 0
   m_Name: Enemy
@@ -99,9 +100,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   path: {fileID: 0}
-  speed: 1
+  speed: 4
   nextWaypointIndex: 1
   reachedWaypointClearance: 0.25
+--- !u!114 &-8103793176537959591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2832987990889524463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f644d2e2d2b8ef342bd193ba8dab9502, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 1
 --- !u!58 &-8668661790145963030
 CircleCollider2D:
   m_ObjectHideFlags: 0

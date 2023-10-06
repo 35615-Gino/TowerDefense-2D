@@ -22,9 +22,11 @@ public class TowerPlacement : MonoBehaviour
                 {
                     if (towerSlots[towerSlotIndex].tower != null)
                     {
-                        return;
+                        towerSlots[towerSlotIndex].tower.Upgrade();
+                    } else
+                    {
+                        PlaceTower(towerSlotIndex);
                     }
-                    PlaceTower(towerSlotIndex);
                 }
             }
         }

@@ -14,7 +14,7 @@ public class WaypointFollower : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        transform.position = path.waypoints[0].position;
+         transform.position = path.waypoints[0].position;
     }
 
     // Update is called once per frame
