@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # TowerDefenseTemplate
 Dit is een template wat door jullie te gebruiken is voor het juist inleveren van alle producten voor de Towerdefense beroepsopdracht. **Verwijder uiteindelijk de template teksten!**
 
@@ -145,3 +146,19 @@ Leg hier uit welke branches jij gaat gebruiken en wat voor namen je hier aan gaa
 
 Meer info over het gebruiken van gitflow [hier](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
 
+=======
+TowerDefenseTemplate
+
+Dit is mijn Tower Defense Opdracht voor de Beroeps Opdracht van Module 5
+
+
+
+Product 1: "DRY SRP Scripts op GitHub"
+Plaats hier minimaal 1 link naar scripts die voldoen aan de eisen van "Don't Repeat Yourself (DRY)" en "Single Responsibility Principle". Omschrijf hier waarom jij denkt dat je in die scripts aan deze eisen voldoet.
+
+Bijvoorbeeld:
+
+"In dit script heb ik een array gebruikt voor al mijn vijanden die in de nieuwe wave worden gespawnd. Hierdoor heb ik mijzelf niet hoeven herhalen (DRY) in de code omdat ik met 1 regel alle enemies kan plaatsen via en for each loop. link naar script"
+
+https://trello.com/b/F4jPmW7X/sd2a-bo-scrum 
+>>>>>>> 3f0ff4b0c167bebc21de42fb6a6e044a8c1632ca
