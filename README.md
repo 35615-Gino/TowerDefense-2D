@@ -1,5 +1,4 @@
 # TowerDefenseTemplate
-TowerDefenseTemplate
 
 Dit is mijn Tower Defense Opdracht voor de Beroeps Opdracht van Module 5
 Deze Tower Defense werkt vrij simpel. wanneer je speelt klik je op een groet stipje om daar je tower op te plaatsen die je met geld koopt. De towers kan je upgraden met het geld die je van de enemies krijgt. Je begint met een standaard hoeveelheid en elke enemy die dood gaat geeft je meer. Het werkt in waves waardoor je na het doden van de enemies er dan nog een aantal bij komt die sterker zijn.
