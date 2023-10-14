@@ -1,8 +1,12 @@
-<<<<<<< HEAD
 # TowerDefenseTemplate
-Dit is een template wat door jullie te gebruiken is voor het juist inleveren van alle producten voor de Towerdefense beroepsopdracht. **Verwijder uiteindelijk de template teksten!**
+TowerDefenseTemplate
 
-Begin met een korte omschrijving van je towerdefense game en hoe deze werkt. Plaats ook een paar screenshots.
+Dit is mijn Tower Defense Opdracht voor de Beroeps Opdracht van Module 5
+Deze Tower Defense werkt vrij simpel. wanneer je speelt klik je op een groet stipje om daar je tower op te plaatsen die je met geld koopt. De towers kan je upgraden met het geld die je van de enemies krijgt. Je begint met een standaard hoeveelheid en elke enemy die dood gaat geeft je meer. Het werkt in waves waardoor je na het doden van de enemies er dan nog een aantal bij komt die sterker zijn.
+
+### Trello:
+https://trello.com/b/F4jPmW7X/sd2a-bo-scrum 
+
 
 ![not really my game](https://cdn.akamai.steamstatic.com/steam/apps/246420/ss_aaaf33cdb9106bd0801a36049516d95c6f2352b0.600x338.jpg?t=1686321490)
 
@@ -145,20 +149,3 @@ Verder worden features op een daarvoor bedoelde feature banch ontwikkeld. Ook ku
 Leg hier uit welke branches jij gaat gebruiken en wat voor namen je hier aan gaat meegeven. Hoe vaak ga je comitten en wat voor commit messages wil je geven?
 
 Meer info over het gebruiken van gitflow [hier](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
-
-=======
-TowerDefenseTemplate
-
-Dit is mijn Tower Defense Opdracht voor de Beroeps Opdracht van Module 5
-
-
-
-Product 1: "DRY SRP Scripts op GitHub"
-Plaats hier minimaal 1 link naar scripts die voldoen aan de eisen van "Don't Repeat Yourself (DRY)" en "Single Responsibility Principle". Omschrijf hier waarom jij denkt dat je in die scripts aan deze eisen voldoet.
-
-Bijvoorbeeld:
-
-"In dit script heb ik een array gebruikt voor al mijn vijanden die in de nieuwe wave worden gespawnd. Hierdoor heb ik mijzelf niet hoeven herhalen (DRY) in de code omdat ik met 1 regel alle enemies kan plaatsen via en for each loop. link naar script"
-
-https://trello.com/b/F4jPmW7X/sd2a-bo-scrum 
->>>>>>> 3f0ff4b0c167bebc21de42fb6a6e044a8c1632ca
