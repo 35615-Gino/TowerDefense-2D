@@ -3,11 +3,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(TowerUpgrade))]
 public class TowerPlacement : MonoBehaviour
 {
     [SerializeField] private Tower towerPrefab;
     [SerializeField] private TowerSlot[] towerSlots;
-
+    [SerializeField] private ScoreManager scoreCount;
+    [SerializeField] private int placementCost;
+    
     private TowerUpgrade towerUpgrade;
 
     private void Start()
@@ -32,7 +35,12 @@ public class TowerPlacement : MonoBehaviour
                         towerUpgrade.SetSelectedTower(towerSlots[towerSlotIndex].tower);
                     } else
                     {
-                        PlaceTower(towerSlotIndex);
+                        if(scoreCount.scoreCount >= placementCost)
+                        {
+                            scoreCount.scoreCount -= placementCost;
+                            scoreCount.UpdateScore();
+                            PlaceTower(towerSlotIndex);
+                        }
                     }
                 }
             }
