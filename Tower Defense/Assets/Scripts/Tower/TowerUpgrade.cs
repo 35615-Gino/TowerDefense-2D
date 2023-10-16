@@ -17,12 +17,10 @@ public class TowerUpgrade : MonoBehaviour
 
     public void SetSelectedTower(Tower tower) 
     {
-        Debug.Log("suas");
         if(scoreCount.scoreCount >= upgradeCost)
         {
             scoreCount.scoreCount -= upgradeCost;
             selectedTower = tower;
         }
-        //selectedTower = tower;    
     }
 }
