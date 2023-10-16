@@ -1,19 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class Projectile : MonoBehaviour
 {
     [SerializeField] public Transform target;
     [SerializeField] private float speed = 10;
     [SerializeField] private int damage;
-    
-
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
+    private ScoreManager scoreManager;
 
     // Update is called once per frame
     void Update()
@@ -26,21 +21,13 @@ public class Projectile : MonoBehaviour
         transform.position = Vector3.MoveTowards(transform.position, target.transform.position, Time.deltaTime * speed);
     }
 
-    /*
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-
-        if (other.tag == "Enemy") 
-        {
-            Destroy(gameObject);
-        }
-    }
-    */
+    
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.transform.tag == "Enemy")
         {
+            ScoreManager sM = FindAnyObjectByType<ScoreManager>();
             // do damage here, for example:
             Destroy(gameObject);
             collision.gameObject.GetComponent<EnemyHealth>().TakeDamage(damage);
