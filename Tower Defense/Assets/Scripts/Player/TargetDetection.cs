@@ -14,7 +14,6 @@ public class TargetDetection : MonoBehaviour
         GameObject[] targets = GameObject.FindGameObjectsWithTag("Enemy");
         if (targets.Length == 0)
         {
-
             return;
         }
         //target = targets[0].transform;

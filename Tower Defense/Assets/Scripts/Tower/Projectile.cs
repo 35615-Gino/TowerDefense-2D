@@ -21,8 +21,6 @@ public class Projectile : MonoBehaviour
         transform.position = Vector3.MoveTowards(transform.position, target.transform.position, Time.deltaTime * speed);
     }
 
-    
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.transform.tag == "Enemy")
