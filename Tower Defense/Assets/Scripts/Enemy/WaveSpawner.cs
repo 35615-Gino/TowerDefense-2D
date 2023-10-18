@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public enum SpawnState { SPAWNING, WAITING };
 
@@ -33,6 +34,12 @@ public class WaveSpawner : MonoBehaviour
                 StartCoroutine(beginNewRound());
             }
         }
+        if (nextWave >= waves.Length - 1 && !EnemyIsAlive())
+        {
+            Time.timeScale = 0f;
+            ActivateEndGameUI();
+        }
+
     }
 
     private IEnumerator beginNewRound()
@@ -76,5 +83,10 @@ public class WaveSpawner : MonoBehaviour
     void SpawnEnemy(Transform enemy)
     {
         Instantiate(enemy, transform.position, transform.rotation);
+    }
+
+    private void ActivateEndGameUI()
+    {
+        SceneManager.LoadScene("YouWin");
     }
 }
