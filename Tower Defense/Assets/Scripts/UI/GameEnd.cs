@@ -6,7 +6,7 @@ using UnityEngine.Analytics;
 
 public class GameEnd : MonoBehaviour
 {
-    public int damageAmount = 1;
+    [SerializeField] public int damageAmount = 1;
     [SerializeField] private LivesManager lives;
     [SerializeField] private GameObject GameOverUI;
 
