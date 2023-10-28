@@ -16,7 +16,7 @@ public class PauseGame : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            Time.timeScale=  ra0f;
+            Time.timeScale= 0f;
             Pause();
         }
     }
