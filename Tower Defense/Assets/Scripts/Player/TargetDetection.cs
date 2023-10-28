@@ -8,7 +8,6 @@ public class TargetDetection : MonoBehaviour
 {
     [SerializeField] private Transform target;
 
-
     private void Update()
     {
         GameObject[] targets = GameObject.FindGameObjectsWithTag("Enemy");
