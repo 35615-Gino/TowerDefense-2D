@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> master
->>>>>>> release/Version1
 # TowerDefenseTemplate
 
 Dit is mijn Tower Defense Opdracht voor de Beroeps Opdracht van Module 5
