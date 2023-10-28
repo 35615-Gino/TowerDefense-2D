@@ -87,6 +87,6 @@ public class WaveSpawner : MonoBehaviour
 
     private void ActivateEndGameUI()
     {
-        SceneManager.LoadScene("YouWin");
+        GetComponent<Stopwatch>().WinGame();
     }
 }

@@ -8,7 +8,6 @@ public class Projectile : MonoBehaviour
     [SerializeField] public Transform target;
     [SerializeField] private float speed = 10;
     [SerializeField] private int damage;
-    private ScoreManager scoreManager;
 
     // Update is called once per frame
     void Update()
@@ -26,7 +25,7 @@ public class Projectile : MonoBehaviour
         if (collision.transform.tag == "Enemy")
         {
             ScoreManager sM = FindAnyObjectByType<ScoreManager>();
-            // do damage here, for example:
+
             Destroy(gameObject);
             collision.gameObject.GetComponent<EnemyHealth>().TakeDamage(damage);
         }

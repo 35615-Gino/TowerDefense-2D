@@ -10,6 +10,10 @@ public class WaypointFollower : MonoBehaviour
     [SerializeField] private int nextWaypointIndex = 1;
     [SerializeField] private float reachedWaypointClearance = 0.25f;
 
+    private void Awake()
+    {
+        path = FindAnyObjectByType<Path>();
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -29,10 +33,5 @@ public class WaypointFollower : MonoBehaviour
         {
             nextWaypointIndex = 0;
         }
-    }
-
-    private void Awake()
-    {
-        path = FindAnyObjectByType<Path>();
     }
 }
