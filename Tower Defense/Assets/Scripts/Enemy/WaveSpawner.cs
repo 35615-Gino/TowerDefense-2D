@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public enum SpawnState { SPAWNING, WAITING };
 
@@ -33,6 +34,12 @@ public class WaveSpawner : MonoBehaviour
                 StartCoroutine(beginNewRound());
             }
         }
+        if (nextWave >= waves.Length - 1 && !EnemyIsAlive())
+        {
+            Time.timeScale = 0f;
+            ActivateEndGameUI();
+        }
+
     }
 
     private IEnumerator beginNewRound()
@@ -56,11 +63,11 @@ public class WaveSpawner : MonoBehaviour
         return GameObject.FindGameObjectsWithTag("Enemy").Length > 0;
     }
 
-    IEnumerator SpawnWave(Wave _wave)
+    IEnumerator SpawnWave(Wave wave)
     {
-        for(int i =0; i< _wave.enemies.Length; i++)
+        for(int i =0; i< wave.enemies.Length; i++)
         {
-            var temp = _wave.enemies[i];
+            var temp = wave.enemies[i];
             for(int j =0; j< temp.count; j++)
             {
                 SpawnEnemy(temp.enemyPrefab);
@@ -73,8 +80,13 @@ public class WaveSpawner : MonoBehaviour
     }
 
 
-    void SpawnEnemy(Transform _enemy)
+    void SpawnEnemy(Transform enemy)
     {
-        Instantiate(_enemy, transform.position, transform.rotation);
+        Instantiate(enemy, transform.position, transform.rotation);
+    }
+
+    private void ActivateEndGameUI()
+    {
+        GetComponent<Stopwatch>().WinGame();
     }
 }

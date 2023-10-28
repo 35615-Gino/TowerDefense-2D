@@ -100,7 +100,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   path: {fileID: 0}
-  speed: 4
+  speed: 3
   nextWaypointIndex: 1
   reachedWaypointClearance: 0.25
 --- !u!114 &-8103793176537959591

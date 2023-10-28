@@ -76,7 +76,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -100,7 +100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0ba504f082f480449e8a17b461d455c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextTower: {fileID: 0}
+  nextTowerPrefab: {fileID: 0}
 --- !u!114 &7884478159372161400
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -114,7 +114,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 1845616793145082018, guid: caab33fdc8a624941a005c2b4bad451b, type: 3}
-  shootInterval: 0.75
+  shootInterval: 0.55
 --- !u!114 &2211870974819416249
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -200,7 +200,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224, type: 3}
   m_Color: {r: 0, g: 0.0572505, b: 1, a: 1}
   m_FlipX: 0

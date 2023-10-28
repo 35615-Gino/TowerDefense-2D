@@ -4,21 +4,23 @@ using UnityEngine;
 
 public class TowerUpgrade : MonoBehaviour
 {
-    [SerializeField] private GameObject cancelButton;
-    // Start is called before the first frame update
-    void Start()
+    private Tower selectedTower;
+    [SerializeField] private ScoreManager scoreCount;
+    [SerializeField] private int upgradeCost;
+
+    public void Upgrade()
     {
-        
+        if (selectedTower == null) return;
+        selectedTower.Upgrade();
+        scoreCount.UpdateScore();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void SetSelectedTower(Tower tower) 
     {
-        //towerSlots[towerSlotIndex].tower
-    }
-
-    public void UpgradeButton()
-    {
-        cancelButton.SetActive(true);
+        if(scoreCount.scoreCount >= upgradeCost)
+        {
+            scoreCount.scoreCount -= upgradeCost;
+            selectedTower = tower;
+        }
     }
 }
