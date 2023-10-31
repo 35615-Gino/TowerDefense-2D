@@ -3,10 +3,7 @@
 Dit is mijn Tower Defense Opdracht voor de Beroeps Opdracht van Module 5
 Deze Tower Defense werkt vrij simpel. wanneer je speelt klik je op een groen stipje om daar je tower op te plaatsen die je met geld koopt. De towers kan je upgraden met het geld die je van de enemies krijgt. Je begint met een standaard hoeveelheid en elke enemy die dood gaat geeft je meer. Het werkt in waves waardoor je na het doden van de enemies er dan nog een aantal bij komt die sterker zijn.
 
-![not really my game](https://cdn.akamai.steamstatic.com/steam/apps/246420/ss_aaaf33cdb9106bd0801a36049516d95c6f2352b0.600x338.jpg?t=1686321490)
-
-![also not](https://cdn.akamai.steamstatic.com/steam/apps/960090/ss_900d7c00d45ff2a258d4c8d59ee47f7f04854c37.600x338.jpg?t=1686097340)
-
+![](readmeVisuals/Gameplay.png)
 
 ## Product 1: "DRY SRP Scripts op GitHub"
 
@@ -24,7 +21,7 @@ Omschrijf hier waarom jij denkt dat je in die scripts aan deze eisen voldoet.
 
 Je commit de mappenstructuur van je unity project op github en verwijst vanuit je readme naar de root map van je project. Met een netjes en goed gestructureerde mappenstructuur en benamingen van files toon je aan dat je dit leerdoel beheerst. 
 
-Dit is de [ROOT](/MyTowerDefenseGame/) folder van mijn unity project.
+Dit is de [ROOT]([/MyTowerDefenseGame/](https://github.com/35615-Gino/TowerDefense-2D/tree/Develop/Tower%20Defense)) folder van mijn unity project.
 
 Zorg dat deze verwijst naar je Develop branch.
 
@@ -32,7 +29,7 @@ Zorg dat deze verwijst naar je Develop branch.
 
 Je maakt in Unity een stabiele “build” van je game waarbij bugs en logs eerst zijn verwijderd. Deze buildfiles upload je in je repository onder releases.  Bij eventuele afwijkingen moeten deze worden gedocumenteerd in de release. (Bijv controller nodig of spelen via netwerk etc..) 
 
-[Release Voorbeeld](https://github.com/erwinhenraat/TowerDefenseTemplate/releases)
+[Recente Release]([https://github.com/erwinhenraat/TowerDefenseTemplate/releases](https://github.com/35615-Gino/TowerDefense-2D/releases/tag/V.1.0.2))
 
 ## Product 4: Game met Sprites(animations) en Textures 
 
@@ -40,7 +37,7 @@ De build van je game bevat textures, sprites en sprite animations(bijv particles
 
 Plaats in je readme een animated gif van je gameplay (+- 10 sec.) waarin de implementatie van je textures en sprites goed te zien is.
 
-![Textures Sprites](readmeVisuals/texturesSprites.gif)
+![Textures Sprites](readmeVisuals/Gif.gif)
 
 ## Product 5: Issues met debug screenshots op GitHub 
 
