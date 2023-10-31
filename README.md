@@ -3,7 +3,7 @@
 Dit is mijn Tower Defense Opdracht voor de Beroeps Opdracht van Module 5
 Deze Tower Defense werkt vrij simpel. wanneer je speelt klik je op een groen stipje om daar je tower op te plaatsen die je met geld koopt. De towers kan je upgraden met het geld die je van de enemies krijgt. Je begint met een standaard hoeveelheid en elke enemy die dood gaat geeft je meer. Het werkt in waves waardoor je na het doden van de enemies er dan nog een aantal bij komt die sterker zijn.
 
-![]([https://cdn.akamai.steamstatic.com/steam/apps/246420/ss_aaaf33cdb9106bd0801a36049516d95c6f2352b0.600x338.jpg?t=1686321490](https://github.com/35615-Gino/TowerDefense-2D/blob/master/readmeVisuals/Gameplay.png)
+![]([https://cdn.akamai.steamstatic.com/steam/apps/246420/ss_aaaf33cdb9106bd0801a36049516d95c6f2352b0.600x338.jpg?t=1686321490](https://github.com/35615-Gino/TowerDefense-2D/blob/master/readmeVisuals/Gameplay.png))
 
 ## Product 1: "DRY SRP Scripts op GitHub"
 
