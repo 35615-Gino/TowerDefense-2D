@@ -81,7 +81,9 @@ Voorbeeld van een one page design:
 
 ## Product 7: Class Diagram voor volledige codebase 
 
-Je brengt je volledige codebase in kaart met behulp van een class diagram. Binnen de classes hoeven geen private members te worden weergegeven. Wel alle public members (fields en methods). Ook geef je indien relevant de relaties tussen je classes weer. Je class diagram plaats je in je readme op github. Evt mag je dit doen m.b.v de [Class Diagram](readmeVisuals/UML-class.png) tool.
+Je brengt je volledige codebase in kaart met behulp van een class diagram. Binnen de classes hoeven geen private members te worden weergegeven. Wel alle public members (fields en methods). Ook geef je indien relevant de relaties tussen je classes weer. Je class diagram plaats je in je readme op github.
+
+![Class Diagram](readmeVisuals/UMLclass.png)
 
 
 ## Product 8: Prototype test video
@@ -95,9 +97,7 @@ Je maakt een SCRUM planning en geeft daarbij een inschatting aan elke userstory 
 
 Plaats in de readme een link naar je trello en **zorg ervoor dat je deze openbaar maakt**
 
-[Link naar de openbare trello]([https://trello.com/b/w60wkKSU/examen-paraphrenia](https://trello.com/b/F4jPmW7X/sd2a-bo-scrum 
-))
-
+[Trello board](https://trello.com/b/F4jPmW7X/sd2a-bo-scrum)
 ## Product 10: Gitflow conventions
 
 Je hebt voor je eigen project in je readme gitflow conventies opgesteld en je hier ook aantoonbaar aan gehouden. 
