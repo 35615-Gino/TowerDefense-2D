@@ -3,14 +3,9 @@
 Dit is mijn Tower Defense Opdracht voor de Beroeps Opdracht van Module 5
 Deze Tower Defense werkt vrij simpel. wanneer je speelt klik je op een groet stipje om daar je tower op te plaatsen die je met geld koopt. De towers kan je upgraden met het geld die je van de enemies krijgt. Je begint met een standaard hoeveelheid en elke enemy die dood gaat geeft je meer. Het werkt in waves waardoor je na het doden van de enemies er dan nog een aantal bij komt die sterker zijn.
 
-### Trello:
-https://trello.com/b/F4jPmW7X/sd2a-bo-scrum 
-
-
 ![not really my game](https://cdn.akamai.steamstatic.com/steam/apps/246420/ss_aaaf33cdb9106bd0801a36049516d95c6f2352b0.600x338.jpg?t=1686321490)
 
 ![also not](https://cdn.akamai.steamstatic.com/steam/apps/960090/ss_900d7c00d45ff2a258d4c8d59ee47f7f04854c37.600x338.jpg?t=1686097340)
-<<<<<<< HEAD
 
 
 ## Product 1: "DRY SRP Scripts op GitHub"
@@ -57,7 +52,6 @@ Je gebruikt een game design tool om je game design vast te leggen en te communic
 Voorbeeld van een one page design:
 ![](https://external-preview.redd.it/48mnMpA0TbiihGo4HsJiWrJhK72xeTRwV2o70_AKilw.jpg?auto=webp&s=3a1ae18f0e4fba7a465643987cbe9cf409466e53)
 
-Omschrijf per mechanic welke game design keuzes je hebt gemaakt en waarom je dit hebt gedaan.
 
 *  **Je game bevat torens die kunnen mikken en schieten op een bewegend doel.** 
 
@@ -65,30 +59,26 @@ Omschrijf per mechanic welke game design keuzes je hebt gemaakt en waarom je dit
 
 *  **Je game bevat vernietigbare vijanden die 1 of meerderen paden kunnen volgen.**  
 
-*Mijn enemies bevatten 3 types: 
-1 snelle die ook snel dood gaat. echter als er veel snelle enemies zijn is de kans steeds groter dat ze bij hun doel komen omdat de torens maar 1 enemy tegelijk kan targetten. Het forceert de speler dus om veel goedkope torens te plaatsen.
-Ook is er een langzame gepantserde enemy. Deze kan eigenlijk alleen maar worden vernietigd door magische torens die zijn geupgrade. goedkope torens doen bijna geen schade. De speler moet dus een balans gaan zoeken tussen veel goedkope torens en upgraden van torens.
-Tot slot is er een vijand die andere enemies healt dit zorgt ervoor dat de speler een extra nadeel heeft en de torens handmatig de deze healer moet laten targetten hierdoor wordt de speler gedwongen om actiever de game te spelen omdat anders geen enkele enemy meer dood gaat.*
+*Ik heb 2 verschillende soorten enemies: 
+1 die niet snel is maar ook niet veel health heeft en de tweede heeft meer health en is iets langzamer*
 
 *  **Je game bevat een “wave” systeem waarmee er onder bepaalde voorwaarden (tijd/vijanden op) nieuwe waves met vijanden het veld in komen.**
 
-*Onderbouwing hier...*
+*Mijn game heeft een wave systeem waar de wave om een paar seconden begint die dan een hoeveelheid enemies spawnt met een spawn interval om het niet tegelijkertijd te spawnen en als de enemies dood zijn wacht je een paar seconden en dan begint de volgende wave en dat gaat door totdat de waves klaar zijn.*
 
 *  **Een “health” systeem waarmee je levens kunt verliezen als vijanden hun doel bereiken en zodoende het spel kunt verliezen.** 
 
-*Onderbouwing hier...*
+*de game heeft een health system van dat elke keer dat een enemy langs de finish line komt dat ze dan 1 leven van je er af halen totdat je geen levens meer hebt*
 
 *  **Een “resource” systeem waarmee je resources kunt verdienen waarmee je torens kunt kopen en .evt upgraden.**
 
-*Onderbouwing hier...*
+*je begint met een standaard hoeveelheid van de resource om towers van te kopen en elke keer dat een enemy dood gaat krijg je meer om ze dan te upgraden*
 
 *  **Een “upgrade” systeem om je torens te verbeteren.**
 
-*Onderbouwing hier...*
+*de towers kunnen geupgrade worden die dan sneller schieten maar even veel damage doen*
 
-*  **Een “movement prediction” systeem waarmee je kan berekenen waar een toren heen moeten schieten om een bewegend object te kunnen raken. (Moeilijk)**
 
-*Onderbouwing hier...*
 
 ## Product 7: Class Diagram voor volledige codebase 
 
@@ -136,7 +126,8 @@ Je maakt een SCRUM planning en geeft daarbij een inschatting aan elke userstory 
 
 Plaats in de readme een link naar je trello en **zorg ervoor dat je deze openbaar maakt**
 
-[Link naar de openbare trello](https://trello.com/b/w60wkKSU/examen-paraphrenia)
+[Link naar de openbare trello]([https://trello.com/b/w60wkKSU/examen-paraphrenia](https://trello.com/b/F4jPmW7X/sd2a-bo-scrum 
+))
 
 ## Product 10: Gitflow conventions
 
