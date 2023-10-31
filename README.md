@@ -89,9 +89,9 @@ Je brengt je volledige codebase in kaart met behulp van een class diagram. Binne
 ## Product 8: Prototype test video
 Je hebt een werkend prototype gemaakt om een idee te testen. Omschrijf if je readme wat het idee van de mechanics is geweest wat je wilde testen en laat een korte video van de gameplay test zien. 
 
-[![example test video](https://ucarecdn.com/dbdc3ad0-f375-40ad-8987-9e6451b28b50/)](https://www.youtube.com/watch?v=CzzRML1swF0)
+[![example test video](readmeVisuals/Gameplay.png)](https://youtu.be/eajQzbSwyTs)
 
-## Product 9: SCRUM planning inschatting 
+gif## Product 9: SCRUM planning inschatting 
 
 Je maakt een SCRUM planning en geeft daarbij een inschatting aan elke userstory d.m.v storypoints / zelf te bepalen eenheden. (bijv. Storypoints, Sizes of tijd) aan het begin van een nieuwe sprint update je deze inschatting per userstory. 
 
