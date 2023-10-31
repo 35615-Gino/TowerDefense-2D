@@ -95,8 +95,7 @@ Je maakt een SCRUM planning en geeft daarbij een inschatting aan elke userstory 
 
 Plaats in de readme een link naar je trello en **zorg ervoor dat je deze openbaar maakt**
 
-[Trello board]([[https://trello.com/b/w60wkKSU/examen-paraphrenia](https://trello.com/b/F4jPmW7X/sd2a-bo-scrum)](https://trello.com/b/F4jPmW7X/sd2a-bo-scrum)](https://trello.com/b/F4jPmW7X/sd2a-bo-scrum))
-
+[Trello board](https://trello.com/b/F4jPmW7X/sd2a-bo-scrum)
 ## Product 10: Gitflow conventions
 
 Je hebt voor je eigen project in je readme gitflow conventies opgesteld en je hier ook aantoonbaar aan gehouden. 
