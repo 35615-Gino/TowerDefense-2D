@@ -1,7 +1,7 @@
 # TowerDefenseTemplate
 
 Dit is mijn Tower Defense Opdracht voor de Beroeps Opdracht van Module 5
-Deze Tower Defense werkt vrij simpel. wanneer je speelt klik je op een groet stipje om daar je tower op te plaatsen die je met geld koopt. De towers kan je upgraden met het geld die je van de enemies krijgt. Je begint met een standaard hoeveelheid en elke enemy die dood gaat geeft je meer. Het werkt in waves waardoor je na het doden van de enemies er dan nog een aantal bij komt die sterker zijn.
+Deze Tower Defense werkt vrij simpel. wanneer je speelt klik je op een groen stipje om daar je tower op te plaatsen die je met geld koopt. De towers kan je upgraden met het geld die je van de enemies krijgt. Je begint met een standaard hoeveelheid en elke enemy die dood gaat geeft je meer. Het werkt in waves waardoor je na het doden van de enemies er dan nog een aantal bij komt die sterker zijn.
 
 ![not really my game](https://cdn.akamai.steamstatic.com/steam/apps/246420/ss_aaaf33cdb9106bd0801a36049516d95c6f2352b0.600x338.jpg?t=1686321490)
 
@@ -13,10 +13,12 @@ Deze Tower Defense werkt vrij simpel. wanneer je speelt klik je op een groet sti
 Plaats hier minimaal 1 link naar scripts die voldoen aan de eisen van **"Don't Repeat Yourself (DRY)"** en **"Single Responsibility Principle"**.
 Omschrijf hier waarom jij denkt dat je in die scripts aan deze eisen voldoet.
 
-Bijvoorbeeld:
+*"In dit script heb ik een array gemaakt voor alle waypoints voor de path zodat ik mezelf niet hoef te herhalen met waypoints en met een paar regels kan zorgen dat ze langs elke waypoint gaan.
+[link naar DRY]([/MyTowerDefenseGame/Assets/Scripts/JustAScript.cs](https://github.com/35615-Gino/TowerDefense-2D/blob/master/Tower%20Defense/Assets/Scripts/Path/Path.cs))"*
 
-*"In dit script heb ik een array gebruikt voor al mijn vijanden die in de nieuwe wave worden gespawnd. Hierdoor heb ik mijzelf niet hoeven herhalen **(DRY)** in de code omdat ik met 1 regel alle enemies kan plaatsen via en for each loop.
-[link naar script](/MyTowerDefenseGame/Assets/Scripts/JustAScript.cs)"*
+*"dit script is SRP omdat het gemaakt is om precies 1 ding te doen en dat is om het spel uit te gaan door op de button te klikken op het start scherm
+
+[Link naar SRP](https://github.com/35615-Gino/TowerDefense-2D/blob/master/Tower%20Defense/Assets/Scripts/UI/Buttons/QuitButton.cs)
 
 ## Product 2: "Projectmappen op GitHub"
 
