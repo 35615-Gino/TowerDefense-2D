@@ -37,7 +37,7 @@ De build van je game bevat textures, sprites en sprite animations(bijv particles
 
 Plaats in je readme een animated gif van je gameplay (+- 10 sec.) waarin de implementatie van je textures en sprites goed te zien is.
 
-![Textures Sprites]([readmeVisuals/texturesSprites.gif](https://github.com/35615-Gino/TowerDefense-2D/blob/master/readmeVisuals/Gif.gif))
+![Textures Sprites](readmeVisuals/Gif.gif)
 
 ## Product 5: Issues met debug screenshots op GitHub 
 
